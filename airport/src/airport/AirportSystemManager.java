@@ -16,7 +16,7 @@ public class AirportSystemManager {
 		
 		//array lists of passengers and flights
 		List<Passengers> passengers = new ArrayList<>();
-		//List<Luggage> personalLuggageList = new ArrayList<>();
+		
 		
 		Scanner m = new Scanner(System.in);
 		
@@ -85,7 +85,7 @@ public class AirportSystemManager {
 					System.out.println("gate:\n");
 					String gate = m.next();
 					System.out.println("Departure time (YYYY-MM-DDTHH:MM):\n");
-					//String departureTime = m.next();
+					
 					CharSequence departureTimeStr = m.next();
 					LocalDateTime departureTime1 = LocalDateTime.parse(departureTimeStr); 
 					
