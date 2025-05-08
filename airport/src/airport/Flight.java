@@ -11,13 +11,7 @@ public class Flight {
 	private LocalDateTime departureTime;
 	private static int passengerNumber = 0; 
 	
-//	public Flight(String flightNumber, String destination, String gate, LocalDateTime departureTime, List<Passengers> passengerList ) {
-//		this.flightNumber = flightNumber;
-//		this.destination = destination;
-//		this.gate = gate;
-//		this.departureTime = departureTime;
-//		this.passengerNumber = passengerNumber;
-//	}
+
 	
 	public Flight(String flightNumber, String destination, String gate, LocalDateTime departureTime) {
 		this.flightNumber = flightNumber;
