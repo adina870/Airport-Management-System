@@ -31,7 +31,7 @@ public class Passengers {
 		this.luggageList = null;
 	}
 	
-	public Passengers(Passengers other) {   ////MIGHT NEED TO GET CHANGED
+	public Passengers(Passengers other) {   
 		this.name = other.name;
 		this.passportNumber = other.passportNumber;
 		this.flight = other.flight;
