@@ -3,7 +3,7 @@ package airport;
 public class Luggage {
 
 	private String luggageID;
-	private double weight; //make exceptions class if weight is passed allowed level
+	private double weight; 
 	private boolean isCheckedIn;
 	private Passengers owner;
 	
